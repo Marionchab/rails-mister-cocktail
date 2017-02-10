@@ -2,3 +2,12 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 22px;
+    margin-bottom: 11px;
+}
+
+.image_bg {
+   background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), image-url('background.jpg');
+   background-position: center;
+}
