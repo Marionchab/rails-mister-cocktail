@@ -1,15 +1,11 @@
 .card {
-  height: 175px;
+  height: 200px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   color: white;
   position: relative;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   border-radius: 5px;
-  height: 240px;
-  width: 360px;
-  // margin-right: 10px;
-  // margin-right: 10px
 }
 .card-user {
   position: absolute;
@@ -46,4 +42,15 @@
 }
 .card-link:hover{
   opacity: 0.1;
+}
+
+.img-show {
+  height: 400px;
+  width: 550px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  // background-size: cover !important;
+  color: white;
+  position: relative;
+  margin-bottom: 2em;
+  border-radius: 7px;
 }

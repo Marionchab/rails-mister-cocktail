@@ -1,13 +1,15 @@
-<h3>Cocktail</h3>
-<%= simple_form_for [@cocktail] do |f| %>
-  <%= f.input :name %>
-  <%= f.input :photo %>
-  <%= f.input :photo_cache, as: :hidden %>
-  <%= f.button :submit, class: "btn btn-primary" %>
-<% end %>
-
-
-
+<div class="text-center padded" id="form">
+  <form class="form-inline ">
+  <%= simple_form_for [@cocktail] do |f| %>
+    <p><%= f.input :name %></p>
+    <hr>
+    <p><%= f.input :photo %></p>
+    <hr>
+    <p><%= f.input :photo_cache, as: :hidden %></p>
+    <%= f.button :submit, {class: "btn-medium"} %>
+  <% end %>
+  </form>
+</div>
 
 
 

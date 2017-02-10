@@ -2,13 +2,13 @@
   <div class="banner-content">
     <h1>Mr. Cocktail</h1>
     <p>Animez vos soirées en réalisant des cocktails de qualité</p>
-    <%= link_to "J'ajoute mon coktail favori", new_cocktail_path, {class: "btn-treehouse"} %>
+    <%= link_to "Créer mon Cocktail", new_cocktail_path, {class: "btn-treehouse"} %>
   </div>
 </div>
 
-  <h1 class="text-center">Nos suggestions</h1>
-
-  <div class="container padded">
+    <h1 class="title_home text-center"><strong>NOS SUGGESTIONS</strong></h1>
+  <hr>
+  <div class="container">
    <div class="row">
      <% @cocktails.each do |cocktail| %>
      <div class="col-xs-12 col-sm-4 box">
@@ -28,8 +28,9 @@
     </div>
     <% end %>
   </div>
-  <div class="text-center padded">
+     <div class="text-center padded">
+      <i class="fa fa-glass fa-4x"" aria-hidden="true"></i><i class="fa fa-glass fa-4x"" aria-hidden="true"></i><i class="fa fa-glass fa-4x"" aria-hidden="true"></i>
+     </div>
   </div>
 </div>
-
 
